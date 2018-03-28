@@ -19,16 +19,17 @@ int main ()
   {
     printf("non ha inserito un numero di tre cifre. Bye\n");
   }
-  else {
-  /* estraiamo le cifre */ 
-  c3 = n % 10;
-  n = n / 10;
-  c2 = n % 10;
-  n = n / 10;
-  c1 = n % 10;
-  somma = c1 + c2 + c3;
-  /* output */
-  printf("La somma delle cifre e' %d\n", somma);  
+  else
+  {
+    /* estraiamo le cifre */ 
+    c3 = n % 10;
+    n = n / 10;
+    c2 = n % 10;
+    n = n / 10;
+    c1 = n % 10;
+    somma = c1 + c2 + c3;
+    /* output */
+    printf("La somma delle cifre e' %d\n", somma);  
   }
   return 0;
 }
