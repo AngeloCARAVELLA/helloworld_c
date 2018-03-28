@@ -19,8 +19,7 @@ int main ()
   {
     printf("non ha inserito un numero di tre cifre. Bye\n");
   }
-  else
-  {
+  else {
   /* estraiamo le cifre */ 
   c3 = n % 10;
   n = n / 10;
