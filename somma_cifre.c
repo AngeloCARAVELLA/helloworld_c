@@ -17,7 +17,7 @@ int main ()
   /* condizione */ 
   if (n < 0 || n > 999) 
   {
-    printf("non ha inserito un numero di tre cifre.bye/n");
+    printf("non ha inserito un numero di tre cifre. Bye\n");
   }
   else
   {
